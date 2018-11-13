@@ -7,8 +7,8 @@ F(x)= a*x^b
 
 
     Class variables:
-Double _coefficient: Represents the coefficient of X in the monom
-Int _power:Represents the power of X in the monom - must be a natural number
+Double _coefficient: Represents the coefficient of X in the monom;
+Int _power:Represents the power of X in the monom - must be a natural number;
  
     Class functions:
 Constructors:
