@@ -2,17 +2,16 @@
 
 #Monom
 
-מחלקה שמייצגת את פונקציית המונום. מונום היא פונקציה מהצורה:
+A class that represents the monom function. Monom is a function of the form:
 F(x)= a*x^b 
 Description
 
-משתני המחלקה:
- Double _coefficient:
-מייצג את המקדם של המונום
-Int _power:
-מייצג את חזקת המונום- חייב להיות מספר טבעי 
-פונקציות המחלקה:
-Constructors
+    Class variables:
+Double _coefficient: Represents the coefficient of X in the monom
+Int _power:Represents the power of X in the monom - must be a natural number
+ 
+    Class functions:
+Constructors:
 
 Constructor	Description
 Monom(double a, int b)
@@ -51,14 +50,15 @@ print the Monom as a String
 
 
 
-Polynom
+#Polynom
 
-מחלקה שמייצגת את פונקציית הפולינום. פולינום הוא אוסף של מונומים. פונקציה מהצורה:
+A class that represents the polynomial function. A polynomial is a collection of monomers. Function of form:
 F(x)= a(1)*x^b(1) + a(2)*x^b(2) …. +a(n)*x^b(n) 
 Description
-משתני המחלקה:
-ArrayList<Monom> polynom:
-רשימה שמכילה מונומים- ייצוג של הפולינום
+
+    Class variables:
+ArrayList<Monom> polynom: ArrayList containing monomers - representation of the polynomial
+
 Constructors
 
 Constructor	Description
