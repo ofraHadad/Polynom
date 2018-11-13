@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"myMath","l":"Monom"}]
