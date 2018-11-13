@@ -60,6 +60,7 @@ F(x)= a(1)*x^b(1) + a(2)*x^b(2) …. +a(n)*x^b(n)
     Class variables:
 ArrayList<Monom> polynom: ArrayList containing monomers - representation of the polynomial
 
+    Class functions:
 Constructors
 
 Constructor	Description
