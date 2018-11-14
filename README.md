@@ -1,4 +1,4 @@
-# Polynom:
+# myMath:
 
 #Monom
 
