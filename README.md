@@ -92,5 +92,5 @@ void	multiply(myMath.Polynom_able p1)	Multiply this Polynom by p1
 double	root(double x0, double x1, double eps)	Compute a value x' (x0<=x'<=x1) for with |f(x')| < eps assuming (f(x0)*f(x1)<=0, returns f(x2) such that: * (i) x0<=x2<=x2 && (ii) f(x2)<eps< div=""> </eps<>
 void	substract(myMath.Polynom_able p1)	Subtract p1 from this Polynom
 java.lang.String	toString()
-print the Polynom as a string
+print the Polynom as a string.
 
