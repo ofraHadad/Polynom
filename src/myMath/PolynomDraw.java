@@ -19,7 +19,7 @@ import de.erichseifert.gral.ui.InteractivePanel;
 import javax.swing.JFrame;
 
 /**
- * this class draw a Polynom graph
+ * this class draw a Polynom graph.
  * the main draw this function:0.2x^4-1.5x^3+3.0x^2-x-5
  * and calculate the area between the function and the x-axis  
  * we used the Gral library, which we found on github 
