@@ -31,7 +31,7 @@ public class PolynomTest {
 			fail("invailid input");
 		}
 		catch (Exception e) {
-		
+
 		}
 	}
 
@@ -165,6 +165,17 @@ public class PolynomTest {
 			fail("the area function does not work well");
 		}
 	}
+	@Test
+	void testAreaInvailidInput() {
+		Polynom p=new Polynom("x^2+4x^7");
+		try {
+			double area=p.area(2, 1,0.0001);
+			fail("the area function does not work well");
+		}
+		catch(Exception e){
+
+		}
+	}
 
 	@Test
 	void testToString() {
@@ -174,4 +185,3 @@ public class PolynomTest {
 	}
 
 }
-

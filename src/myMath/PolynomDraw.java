@@ -31,12 +31,10 @@ public class PolynomDraw extends JFrame {
 /**
  * this contractor create a graph of Polynom
  */
-	public PolynomDraw(Polynom  p, double x0, double x1) {
+	public PolynomDraw(Polynom  p, double x0, double x1,double eps) {
 		//we took some of the code from the gral project in github and merge it with are Polynom code
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(800, 600);
-
-		double eps=0.01;
 
 		DataTable data = new DataTable(Double.class, Double.class); //we 
 		DataTable dataExtreme = new DataTable(Double.class, Double.class);
@@ -94,11 +92,15 @@ public class PolynomDraw extends JFrame {
 
 	}
 
-
+/**
+ * draw this function:0.2x^4-1.5x^3+3.0x^2-x-5
+ * and calculate the area between the function and the x-axis
+ * @param args
+ */
 
 	public static void main(String[] args) {
 		Polynom p= new Polynom("0.2x^4-1.5x^3+3.0x^2-x-5"); 
-		PolynomDraw frame = new PolynomDraw(p,-2,6);
+		PolynomDraw frame = new PolynomDraw(p,-2,6,0.01);
 		frame.setVisible(true);
 		double area= p.negativearea(-2,6,0.01);
 		System.out.println("the area Above the function and under the X axis: "+area);
